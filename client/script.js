@@ -26,8 +26,6 @@ async function sendMessage() {
 
   let reply = Object.values(data);
 
-  console.log(reply);
-
   chatbox.innerHTML += "<p>Bot: " + reply + "<p>";
 
   messageInput.value = "";
