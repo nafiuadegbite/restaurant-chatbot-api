@@ -1,0 +1,28 @@
+{
+  "name": "restaurant-chatbot-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server/src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nafiuadegbite/restaurant-chatbot-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nafiuadegbite/restaurant-chatbot-api/issues"
+  },
+  "homepage": "https://github.com/nafiuadegbite/restaurant-chatbot-api#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.21"
+  }
+}
