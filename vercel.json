@@ -2,5 +2,5 @@
   "version": 2,
   "name": "restaurant-chatbot-api",
   "builds": [{ "src": "./server/src/server.js", "use": "@vercel/node" }],
-  "routes": [{ "src": "/(.*)", "dest": "/server/src/server.js" }]
+  "routes": [{ "src": "/(.*)", "dest": "/client/index.html" }]
 }
